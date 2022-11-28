@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+
+
+@layer components {
+  .sidebar-icon {
+    @apply flex items-center justify-center w-12 h-12 mt-2 rounded dark:hover:text-gray-300  hover:text-black;
+  }
+
+  .sidebar-svg {
+    @apply w-6 h-6 lg:w-10 lg:h-10 dark:stroke-primary-shadow stroke-light-primary;
+  }
+  .divicon {
+    @apply my-1 md:my-2 lg:my-[-2.5] ;
+  }
+
+
+
+}
