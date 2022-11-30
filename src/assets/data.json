@@ -1,0 +1,20 @@
+{
+    "name": "Facundo Lerena",
+    "age": "22",
+    "profession": "Dev Jr.",
+    "portfolio": {
+      "tecnologias": [{
+        "1": "js",
+        "2": "ts",
+        "3": "go",
+        "4": "c++/arduino",
+        "5": "haskell"
+      }],
+      "proyectos": [{
+        "algebra": {
+          "descripcion": "tps de algebra 1",
+          "tecnologia": "haskell"
+        }
+      }]
+    }
+  }

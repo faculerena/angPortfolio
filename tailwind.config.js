@@ -16,8 +16,9 @@ module.exports = {
         'light-secondary': '#533483',
         'light-background': '#ffffff',
         'light-surface': '#bababa',
-
-
+      },
+      fontFamily: {
+        'mono': ['roboto mono', 'monospace'],
       }
       
     },
